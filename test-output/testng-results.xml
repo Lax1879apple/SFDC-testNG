@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SFDC Selenium" duration-ms="23174" started-at="2021-08-07T23:34:15 EDT" finished-at="2021-08-07T23:34:38 EDT">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="23174" started-at="2021-08-07T23:34:15 EDT" finished-at="2021-08-07T23:34:38 EDT">
+      <class name="com.sfdc.training.test.login.LoginTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="beforeTest" is-config="true" duration-ms="9831" started-at="2021-08-07T23:34:15 EDT" finished-at="2021-08-07T23:34:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateLoginwithValidUser()[pri:0, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="validateLoginwithValidUser" duration-ms="2422" started-at="2021-08-07T23:34:25 EDT" finished-at="2021-08-07T23:34:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithValidUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="teardown" is-config="true" duration-ms="6193" started-at="2021-08-07T23:34:27 EDT" finished-at="2021-08-07T23:34:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="beforeTest" is-config="true" duration-ms="2435" started-at="2021-08-07T23:34:34 EDT" finished-at="2021-08-07T23:34:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateLoginwithInvaliteUser()[pri:1, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="validateLoginwithInvaliteUser" duration-ms="1263" started-at="2021-08-07T23:34:36 EDT" finished-at="2021-08-07T23:34:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithInvaliteUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfdc.training.test.login.LoginTest@59e5ddf]" name="teardown" is-config="true" duration-ms="935" started-at="2021-08-07T23:34:37 EDT" finished-at="2021-08-07T23:34:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sfdc.training.test.login.LoginTest -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- SFDC Selenium -->
+</testng-results>
